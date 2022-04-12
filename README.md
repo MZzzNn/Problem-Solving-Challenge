@@ -1,11 +1,12 @@
 <p align="center">
 <a href="https://leetcode.com/MZzzNn/">
-<img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="500" alt="leetcode"></a>
+<img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="500" alt="logo"></a>
 </p>
 
 [//]: # (<p align="center">)
 
 [//]: # (	<img src="https://img.shields.io/badge/Problems%20Solved-30-sucess.svg" alt="">)
+[//]: # ([![Open Source Love]&#40;https://badges.frapsoft.com/os/v2/open-source.svg?v=103&#41;]&#40;https://github.com/vinitshahdeo/HacktoberFest&#41;)
 
 [//]: # (	<img src="https://img.shields.io/badge/Language-Dart-blue.svg" alt="">)
 
@@ -13,6 +14,8 @@
 
 ---
 <h1 align="center">Problem Solving Challenge</h1> 
+
+> Collection of problems and solutions of leetcode challenges in dart
 
 
 <br/>                                                     
