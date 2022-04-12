@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://leetcode.com/MZzzNn/">
-<img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" height="200" width="500" alt="leetcode"></a>
+<img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="500" alt="leetcode"></a>
 </p>
 
 [//]: # (<p align="center">)
