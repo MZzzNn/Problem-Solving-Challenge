@@ -15,7 +15,7 @@ void main() {
 
 
   // Day3Solution
-  Day3Solution().nextPermutation([1,2,3]);
+  print(Day3Solution().longestCommonPrefix(['flower','flow','flight']));
 
 
 

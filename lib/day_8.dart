@@ -1,0 +1,3 @@
+class Day8Solution {
+
+}

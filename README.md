@@ -15,15 +15,15 @@
 ---
 <h1 align="center">Problem Solving Challenge</h1> 
 
-> Collection of problems and solutions of leetcode challenges in dart
+> Collection of problems and solutions of leetcode challenges in dart language.
 
 
-<br/>                                                     
-<br/>                                                     
-     
+<br/><br/>                                                     
 
-| Day |                                  Problem                                   |                                        Solution                                        | state  |
-|:---:|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:------:|
-| 1.  |      [Reverse String ](https://leetcode.com/problems/reverse-string/)      | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_1.dart) |  Easy  |
-| 2.  | [Valid Palindrome II ](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_2.dart) |  Easy  |
-| 2.  |    [Next Permutation ](https://leetcode.com/problems/next-permutation/)    | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_3.dart) | Medium |
+
+| Day |                                    Problem                                     |                                        Solution                                        | state  |
+|:---:|:------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:------:|
+| 1.  |        [Reverse String ](https://leetcode.com/problems/reverse-string/)        | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_1.dart) |  Easy  |
+| 2.  |   [Valid Palindrome II ](https://leetcode.com/problems/valid-palindrome-ii/)   | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_2.dart) |  Easy  |
+| 2.  | [Longest Common Prefix ](https://leetcode.com/problems/longest-common-prefix/) | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_3.dart) |  Easy  |
+| 2.  |      [Next Permutation ](https://leetcode.com/problems/next-permutation/)      | [Solution](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/day_4.dart) | Medium |
