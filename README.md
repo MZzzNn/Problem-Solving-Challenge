@@ -3,12 +3,11 @@
 <img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg" width="500" alt="logo"></a>
 </p>
 
-<p align="center">
-
 [//]: # (<img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love">)
+
+<p align="center">
 <img src="https://img.shields.io/badge/Problems%20Solved-4-sucess.svg" alt="Problems Solved">
 <img src="https://img.shields.io/badge/Language-Dart-blue.svg" alt="">
-
 </p>
 
 ---
