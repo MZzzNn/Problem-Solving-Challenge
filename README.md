@@ -10,6 +10,8 @@
 <img src="https://img.shields.io/badge/Language-Dart-blue.svg" alt="">
 </p>
 
+<br/>
+
 ---
 <h1 align="center">Problem Solving Challenge</h1> 
 
