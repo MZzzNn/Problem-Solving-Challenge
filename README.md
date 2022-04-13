@@ -5,12 +5,13 @@
 
 [//]: # (<img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love">)
 
+<br/>
+
 <p align="center">
 <img src="https://img.shields.io/badge/Problems%20Solved-4-sucess.svg" alt="Problems Solved">
 <img src="https://img.shields.io/badge/Language-Dart-blue.svg" alt="">
 </p>
 
-<br/>
 
 ---
 <h1 align="center">Problem Solving Challenge</h1> 
