@@ -2,11 +2,11 @@ class Day4Solution {
   int romanToInt(String s) {
     if (s.isEmpty) return 0;
 
-    var previous = getValue(s[0]);
-    var result = previous;
+    int previous = getValue(s[0]);
+    int result = previous;
 
-    for (var i = 1; i < s.length; i++) {
-      var current = getValue(s[i]);
+    for (int i = 1; i < s.length; i++) {
+      int current = getValue(s[i]);
       result += current;
       if (current > previous) result -= 2 * previous;
       previous = current;

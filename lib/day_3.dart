@@ -6,10 +6,10 @@ class Day3Solution {
 
     strs.sort();
 
-    var first = strs[0].split('').join().toString();
-    var last = strs[strs.length - 1].split('').join().toString();
+    String first = strs[0].split('').join().toString();
+    String last = strs[strs.length - 1].split('').join().toString();
 
-    var i = 0;
+    int i = 0;
     while (i < strs[0].length && first[i] == last[i]) {
       i++;
     }
