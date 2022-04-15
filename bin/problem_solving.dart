@@ -3,6 +3,7 @@ import 'package:problem_solving/day_2.dart';
 import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
 import 'package:problem_solving/day_5.dart';
+import 'package:problem_solving/day_6.dart';
 
 void main() {
 
@@ -25,6 +26,9 @@ void main() {
   // Day5Solution
   print(Day5Solution().lengthOfLastWord('   fly me   to   the moon  '));
 
+
+  // Day6Solution
+  print(Day6Solution().isValid('()[]{}'));
 
 
 
