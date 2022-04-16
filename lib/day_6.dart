@@ -1,20 +1,20 @@
-import 'dart:collection';
-
 class Day6Solution {
   bool isValid(String s) {
     if (s.isEmpty) return false;
 
-    final listChar = Queue<String>();
+   // final queueChar = Queue<String>();
+    final listChar = [];
 
     for (var ch in s.split('')) {
       if (ch == '(' || ch == '{' || ch == '[') {
         listChar.add(ch);
       } else if (ch == ')' && listChar.isNotEmpty && listChar.first == '(') {
-        listChar.removeFirst();
+        //queueChar.removeFirst();
+        listChar.removeAt(0);
       } else if (ch == '}' && listChar.isNotEmpty && listChar.first == '{') {
-        listChar.removeFirst();
+        listChar.removeAt(0);
       } else if (ch == ']' && listChar.isNotEmpty && listChar.first == '[') {
-        listChar.removeFirst();
+        listChar.removeAt(0);
       } else {
         return false;
       }

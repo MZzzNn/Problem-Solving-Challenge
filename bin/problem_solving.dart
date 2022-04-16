@@ -5,6 +5,7 @@ import 'package:problem_solving/day_4.dart';
 import 'package:problem_solving/day_5.dart';
 import 'package:problem_solving/day_6.dart';
 import 'package:problem_solving/day_7.dart';
+import 'package:problem_solving/day_8.dart';
 
 void main() {
 
@@ -35,5 +36,8 @@ void main() {
   // Day7Solution
   print(Day7Solution().strStr('hello','ll'));
 
+
+  // Day8Solution
+  print(Day8Solution().searchInsert([1,3,5,6],7));
 
 }
