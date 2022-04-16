@@ -4,6 +4,7 @@ import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
 import 'package:problem_solving/day_5.dart';
 import 'package:problem_solving/day_6.dart';
+import 'package:problem_solving/day_7.dart';
 
 void main() {
 
@@ -30,6 +31,9 @@ void main() {
   // Day6Solution
   print(Day6Solution().isValid('()[]{}'));
 
+
+  // Day7Solution
+  print(Day7Solution().strStr('hello','ll'));
 
 
 }
