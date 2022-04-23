@@ -2,6 +2,7 @@ import 'package:problem_solving/day_1.dart';
 import 'package:problem_solving/day_10.dart';
 import 'package:problem_solving/day_11.dart';
 import 'package:problem_solving/day_12.dart';
+import 'package:problem_solving/day_13.dart';
 import 'package:problem_solving/day_2.dart';
 import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
@@ -53,10 +54,14 @@ void main() {
   print('Day 10 : ' +Day10Solution().twoSum([2,7,11,15],9).toString());
 
 
-  // Day10Solution
+  // Day11Solution
   print('Day 11 : ' +Day11Solution().addBinary('1010','1011').toString());
 
 
-  // Day10Solution
+  // Day12Solution
   print('Day 12 : ' +Day12Solution().isPalindrome('A man, a plan, a canal: Panama').toString());
+
+
+  // Day13Solution
+  Day13Solution().merge([1,2,3,0,0,0],3,[2,5,6],3);
 }
