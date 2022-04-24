@@ -68,6 +68,6 @@ void main() {
 
 
   // Day14Solution
-  print('Day 14 : ' +Day14Solution().singleNumber([1,2,1,2,4]).toString());
+  print('Day 14 : ' +Day14Solution().singleNumber([1,2,1,2,4,1]).toString());
 
 }
