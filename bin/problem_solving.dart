@@ -3,6 +3,7 @@ import 'package:problem_solving/day_10.dart';
 import 'package:problem_solving/day_11.dart';
 import 'package:problem_solving/day_12.dart';
 import 'package:problem_solving/day_13.dart';
+import 'package:problem_solving/day_14.dart';
 import 'package:problem_solving/day_2.dart';
 import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
@@ -64,4 +65,9 @@ void main() {
 
   // Day13Solution
   Day13Solution().merge([1,2,3,0,0,0],3,[2,5,6],3);
+
+
+  // Day14Solution
+  print('Day 14 : ' +Day14Solution().singleNumber([1,2,1,2,4]).toString());
+
 }
