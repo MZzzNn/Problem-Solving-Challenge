@@ -6,6 +6,7 @@ import 'package:problem_solving/day_13.dart';
 import 'package:problem_solving/day_14.dart';
 import 'package:problem_solving/day_15.dart';
 import 'package:problem_solving/day_16.dart';
+import 'package:problem_solving/day_17.dart';
 import 'package:problem_solving/day_2.dart';
 import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
@@ -79,4 +80,8 @@ void main() {
 
   // Day16Solution
   print('Day 16 : ' +Day16Solution().majorityElement([2,2,1,1,1,2,2]).toString());
+
+
+  // Day17Solution
+  print('Day 17 : ' +Day17Solution().containsDuplicate([2,1,3,1]).toString());
 }
