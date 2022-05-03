@@ -8,6 +8,7 @@ import 'package:problem_solving/day_15.dart';
 import 'package:problem_solving/day_16.dart';
 import 'package:problem_solving/day_17.dart';
 import 'package:problem_solving/day_18.dart';
+import 'package:problem_solving/day_19.dart';
 import 'package:problem_solving/day_2.dart';
 import 'package:problem_solving/day_3.dart';
 import 'package:problem_solving/day_4.dart';
@@ -89,4 +90,10 @@ void main() {
 
   // Day18Solution
   print('Day 18 : ' +Day18Solution().isPowerOfTwo(4).toString());
+
+
+  // Day19Solution
+  print('Day 19 : ' +Day19Solution().fizzBuzz(4).toString());
+
+
 }
