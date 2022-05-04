@@ -1,5 +1,6 @@
 import 'package:problem_solving/day_22.dart';
 import 'package:problem_solving/day_23.dart';
+import 'package:problem_solving/day_24.dart';
 
 import 'app.dart';
 
@@ -74,7 +75,7 @@ void main() {
 
 
   // Day18Solution
-  print('Day 18 : ' +Day18Solution().isPowerOfTwo(4).toString());
+  print('Day 18 : ' +Day18Solution().isPowerOfTwo(6).toString());
 
 
   // Day19Solution
@@ -95,6 +96,10 @@ void main() {
 
   // Day23Solution
   Day23Solution().moveZeroes( [0,1,0,3,12]);
+
+
+  // Day24Solution
+  print('Day 24 : ' +Day24Solution().isPowerOfThree(27).toString());
 
 
 }
