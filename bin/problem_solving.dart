@@ -1,22 +1,4 @@
-import 'package:problem_solving/day_1.dart';
-import 'package:problem_solving/day_10.dart';
-import 'package:problem_solving/day_11.dart';
-import 'package:problem_solving/day_12.dart';
-import 'package:problem_solving/day_13.dart';
-import 'package:problem_solving/day_14.dart';
-import 'package:problem_solving/day_15.dart';
-import 'package:problem_solving/day_16.dart';
-import 'package:problem_solving/day_17.dart';
-import 'package:problem_solving/day_18.dart';
-import 'package:problem_solving/day_19.dart';
-import 'package:problem_solving/day_2.dart';
-import 'package:problem_solving/day_3.dart';
-import 'package:problem_solving/day_4.dart';
-import 'package:problem_solving/day_5.dart';
-import 'package:problem_solving/day_6.dart';
-import 'package:problem_solving/day_7.dart';
-import 'package:problem_solving/day_8.dart';
-import 'package:problem_solving/day_9.dart';
+import 'app.dart';
 
 void main() {
 
@@ -94,6 +76,11 @@ void main() {
 
   // Day19Solution
   print('Day 19 : ' +Day19Solution().fizzBuzz(4).toString());
+
+
+  // Day19Solution
+  print('Day 20 : ' +Day20Solution().restoreString('codeleet',[4,5,6,7,0,2,1,3]).toString());
+
 
 
 }
