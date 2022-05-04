@@ -78,8 +78,12 @@ void main() {
   print('Day 19 : ' +Day19Solution().fizzBuzz(4).toString());
 
 
-  // Day19Solution
+  // Day20Solution
   print('Day 20 : ' +Day20Solution().restoreString('codeleet',[4,5,6,7,0,2,1,3]).toString());
+
+
+  // Day21Solution
+  print('Day 21 : ' +Day21Solution().firstUniqChar('loveleetcode').toString());
 
 
 
