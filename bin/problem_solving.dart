@@ -1,3 +1,5 @@
+import 'package:problem_solving/day_22.dart';
+
 import 'app.dart';
 
 void main() {
@@ -85,6 +87,9 @@ void main() {
   // Day21Solution
   print('Day 21 : ' +Day21Solution().firstUniqChar('loveleetcode').toString());
 
+
+  // Day22Solution
+  print('Day 22 : ' +Day22Solution().missingNumber([3,0,2]).toString());
 
 
 }
