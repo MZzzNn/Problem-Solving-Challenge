@@ -1,4 +1,5 @@
 import 'package:problem_solving/day_22.dart';
+import 'package:problem_solving/day_23.dart';
 
 import 'app.dart';
 
@@ -90,6 +91,10 @@ void main() {
 
   // Day22Solution
   print('Day 22 : ' +Day22Solution().missingNumber([3,0,2]).toString());
+
+
+  // Day23Solution
+  Day23Solution().moveZeroes( [0,1,0,3,12]);
 
 
 }
