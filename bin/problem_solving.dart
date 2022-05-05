@@ -1,6 +1,7 @@
 import 'package:problem_solving/day_22.dart';
 import 'package:problem_solving/day_23.dart';
 import 'package:problem_solving/day_24.dart';
+import 'package:problem_solving/day_25.dart';
 
 import 'app.dart';
 
@@ -101,5 +102,8 @@ void main() {
   // Day24Solution
   print('Day 24 : ' +Day24Solution().isPowerOfThree(27).toString());
 
+
+  // Day25Solution
+  print('Day 25 : ' +Day25Solution().intersect( [1,2,2,1] ,[2,2]).toString());
 
 }
