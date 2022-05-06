@@ -2,6 +2,7 @@ import 'package:problem_solving/day_22.dart';
 import 'package:problem_solving/day_23.dart';
 import 'package:problem_solving/day_24.dart';
 import 'package:problem_solving/day_25.dart';
+import 'package:problem_solving/day_26.dart';
 
 import 'app.dart';
 
@@ -104,6 +105,10 @@ void main() {
 
 
   // Day25Solution
-  print('Day 25 : ' +Day25Solution().intersect( [1,2,2,1] ,[2,2]).toString());
+  print('Day 25 : ' +Day25Solution().intersect( [1,2,2,1] ,[2,2]).toString()); ///not solved
+
+
+  // Day26Solution
+  print('Day 26 : ' +Day26Solution().isAnagram('anagram','nagaram').toString());
 
 }
