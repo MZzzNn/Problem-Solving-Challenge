@@ -109,6 +109,6 @@ void main() {
 
 
   // Day26Solution
-  print('Day 26 : ' +Day26Solution().isAnagram('anagram','nagartm').toString());
+  print('Day 26 : ' +Day26Solution().isAnagram('anagram','nagaram').toString());
 
 }
