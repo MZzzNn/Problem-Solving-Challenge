@@ -105,7 +105,7 @@ void main() {
 
 
   // Day25Solution
-  print('Day 25 : ' +Day25Solution().intersect( [1,2,2,1] ,[2,2]).toString()); ///not solved
+  print('Day 25 : ' +Day25Solution().intersect( [1,2,2,1] ,[2,2]).toString());
 
 
   // Day26Solution
