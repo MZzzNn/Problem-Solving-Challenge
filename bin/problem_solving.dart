@@ -114,4 +114,8 @@ void main() {
   print('Day 28 : ' +Day28Solution().lengthOfLongestSubstring('abcabcbb').toString());
 
 
+  // Day29Solution
+  Day29Solution().nextPermutation([1,2,3]);
+
+
 }
