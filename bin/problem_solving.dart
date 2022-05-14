@@ -1,9 +1,3 @@
-import 'package:problem_solving/day_22.dart';
-import 'package:problem_solving/day_23.dart';
-import 'package:problem_solving/day_24.dart';
-import 'package:problem_solving/day_25.dart';
-import 'package:problem_solving/day_26.dart';
-
 import 'app.dart';
 
 void main() {
@@ -110,5 +104,14 @@ void main() {
 
   // Day26Solution
   print('Day 26 : ' +Day26Solution().isAnagram('anagram','nagaram').toString());
+
+
+  // Day27Solution
+  //print('Day 27 : ' +Day27Solution().isValid('()[]{}').toString());
+
+
+  // Day28Solution
+  print('Day 28 : ' +Day28Solution().lengthOfLongestSubstring('abcabcbb').toString());
+
 
 }
