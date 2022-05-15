@@ -115,7 +115,9 @@ void main() {
 
 
   // Day29Solution
-  Day29Solution().nextPermutation([1,2,3]);
+  print('Day 29 : ' +Day29Solution().merge([[1,3],[15,18],[2,6],[8,10]]).toString());
 
 
+  // Day30Solution
+  Day30Solution().nextPermutation([1,2,3]);
 }
