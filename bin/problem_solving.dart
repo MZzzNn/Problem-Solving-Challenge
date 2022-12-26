@@ -3,11 +3,11 @@ import 'app.dart';
 void main() {
 
   // Day1Solution
-  // print();
+  print('Day 1 : ' + Day1Solution().reverseString('hello'));
 
-  Day1Solution().reverse3ListString( ["h","e","l","l","o"]);
-  // Day2Solution
-  print('Day 2 : ' +Day2Solution().validPalindrome('mazemxezam').toString());
+
+    // Day2Solution
+  print('Day 2 : ' +Day2Solution().validPalindrome('deeee').toString());
 
 
   // Day3Solution
