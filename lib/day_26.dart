@@ -1,11 +1,9 @@
 class Day26Solution {
-  bool isAnagram(String s, String t) {
-    bool result = true;
-    if (s.length != t.length) return false;
-    for (int i = 0; i < s.length; i++) {
-      if (s.contains(s[i]) != t.contains(s[i])) return false;
-      if (s.contains(t[i]) != t.contains(t[i])) return false;
+  int strStr(String haystack, String needle) {
+    if (needle.isEmpty) return 0;
+    for (int i = 0; i <= haystack.length - needle.length; i++) {
+      if (haystack.substring(i, i + needle.length) == needle) return i;
     }
-    return result;
+    return -1;
   }
 }

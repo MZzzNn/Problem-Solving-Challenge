@@ -27,7 +27,8 @@ void main() {
 
 
   // Day7Solution
-  print('Day 7 : ' +Day7Solution().strStr('hello','ll').toString());
+  print('Day 7 : ' +Day7Solution().isAnagram('anagram','nagaram').toString());
+
 
 
   // Day8Solution
@@ -35,7 +36,7 @@ void main() {
 
 
   // Day9Solution
-  print('Day 9 : ' +Day9Solution().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]).toString());
+  print('Day 9 : ' +Day9Solution().generate(5).toString());
 
 
   // Day10Solution
@@ -103,11 +104,11 @@ void main() {
 
 
   // Day26Solution
-  print('Day 26 : ' +Day26Solution().isAnagram('anagram','nagaram').toString());
+  print('Day 26 : ' +Day26Solution().strStr('hello','ll').toString());
 
 
   // Day27Solution
-  //print('Day 27 : ' +Day27Solution().isValid('()[]{}').toString());
+  print('Day 27 : ' +Day27Solution().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]).toString());
 
 
   // Day28Solution
