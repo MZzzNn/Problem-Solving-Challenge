@@ -27,7 +27,7 @@ void main() {
 
 
   // Day7Solution
-  print('Day 7 : ' +Day7Solution().isAnagram('anagram','nagaram').toString());
+  print('Day 7 : ' +Day7Solution().isAnagram('aacc','ccac').toString());
 
 
 
