@@ -1,4 +1,4 @@
-class Day7Solution {
+class Problem7Solution {
   bool isAnagram(String s, String t) {
     if (s.length != t.length) return false;
     List<String> sList = s.split('')..sort();

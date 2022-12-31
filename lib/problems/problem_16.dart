@@ -1,4 +1,4 @@
-class Day16Solution {
+class Problem16Solution {
   int majorityElement(List<int> nums) {
     int result = 0;
     int count = 0;

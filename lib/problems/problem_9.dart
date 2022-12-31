@@ -1,4 +1,4 @@
-class Day9Solution {
+class Problem9Solution {
   List<List<int>> generate(int numRows) {
 
     return [];

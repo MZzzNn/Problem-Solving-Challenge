@@ -1,5 +1,5 @@
 import 'dart:math' as Math;
-class Day18Solution {
+class Problem18Solution {
   bool isPowerOfTwo(int n) {
     // TODO: Solution 1
     var result = false;

@@ -1,4 +1,4 @@
-class Day19Solution {
+class Problem19Solution {
   List<String> fizzBuzz(int n) {
     List<String> result = [];
     for (int i = 1; i <= n; i++) {

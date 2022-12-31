@@ -1,4 +1,4 @@
-class Day2Solution {
+class Problem2Solution {
   bool validPalindrome(String s) {
     //Solution 1
     final String temp = s.toLowerCase();

@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-class Day29Solution {
+class Problem29Solution {
   List<List<int>> merge(List<List<int>> intervals) {
     if (intervals.length <= 1) return intervals;
     intervals.sort((a, b) => a[0].compareTo(b[0]));

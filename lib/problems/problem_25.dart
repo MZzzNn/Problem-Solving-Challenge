@@ -1,4 +1,4 @@
-class Day25Solution {
+class Problem25Solution {
   List<int> intersect(List<int> nums1, List<int> nums2) {
     List<int> result = [];
     nums1.sort();

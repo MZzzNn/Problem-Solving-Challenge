@@ -1,5 +1,5 @@
 import 'dart:math' as math;
-class Day24Solution {
+class Problem24Solution {
   bool isPowerOfThree(int n) {
     // TODO: Solution 1
     var result = false;

@@ -1,4 +1,4 @@
-class Day1Solution {
+class Problem1Solution {
   //Solution 1
   String reverseString(String s) {
     int startArray = 0;

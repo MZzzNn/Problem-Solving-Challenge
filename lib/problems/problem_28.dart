@@ -1,4 +1,4 @@
-class Day28Solution {
+class Problem28Solution {
   int lengthOfLongestSubstring(String s) {
     List<String> temp = [];
     int result = 0;

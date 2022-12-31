@@ -1,4 +1,4 @@
-class Day10Solution {
+class Problem10Solution {
   List<int> twoSum(List<int> nums, int target) {
     var result = 0;
     List<int> path = [];

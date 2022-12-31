@@ -1,4 +1,4 @@
-class Day8Solution {
+class Problem8Solution {
   int searchInsert(List<int> nums, int target) {
  //   print('nums: $nums ,target: $target');
     for (var i = 0; i < nums.length; i++) {

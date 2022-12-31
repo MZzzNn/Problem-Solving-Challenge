@@ -18,9 +18,7 @@
 
 > Collection of problems and solutions of leetcode challenges in dart language.
 
-
-<br/><br/>                                                     
-
+<br/>
 
 | 🏷️ |                                                               Problem                                                               |                                               _**Solution**_                                               |  Lang  |  state   |
 |:---:|:-----------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:------:|:--------:|
@@ -62,5 +60,7 @@
 
 |       🏷️       |   #    |                                                       Problem                                                       |                                                 Solution                                                  |  Lang  | Difficulty |
 |:---------------:|:------:|:-------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------:|:----------:|
-| 1. `Prefix Sum` | `1480` | [**Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/?envType=study-plan&id=level-1) | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_1.dart) | `Dart` |   `Easy`   |
+| 1. `Prefix Sum` | `1480` | [**Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/?envType=study-plan&id=level-1) | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_1.dart) |  `C#`  |   `Easy`   |
 | 2. `Prefix Sum` | `724`  |        [**Find Pivot Index**](https://leetcode.com/problems/find-pivot-index/?envType=study-plan&id=level-1)        | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_1.dart) | `Dart` |   `Easy`   |
+|   2. `String`   | `205`  |      [**Isomorphic Strings**](https://leetcode.com/problems/isomorphic-strings/?envType=study-plan&id=level-1)      | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_2.dart) | `Dart` |   `Easy`   |
+|   2. `String`   | `392`  |          [**Is Subsequence**](https://leetcode.com/problems/is-subsequence/?envType=study-plan&id=level-1)          | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_2.dart) | `Dart` |   `Easy`   |

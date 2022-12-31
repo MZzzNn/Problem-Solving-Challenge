@@ -1,4 +1,4 @@
-class Day30Solution {
+class Problem30Solution {
   void nextPermutation(List<int> nums) {
     int i = nums.length - 2;
     while (i >= 0 && nums[i] >= nums[i + 1]) {
@@ -13,7 +13,7 @@ class Day30Solution {
     }
     reverse(nums, i + 1);
 
-    print('Day 29 : ' + nums.toString());
+    print('Problem 29 : ' + nums.toString());
   }
 
   // swap two elements

@@ -1,4 +1,4 @@
-class Day21Solution {
+class Problem21Solution {
   int firstUniqChar(String s) {
     int result = -1;
     for (int i = 0; i < s.length; i++) {

@@ -1,4 +1,4 @@
-class Day12Solution {
+class Problem12Solution {
   bool isPalindrome(String s) {
 
     if (s.trim().isEmpty) return true;

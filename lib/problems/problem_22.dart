@@ -1,4 +1,4 @@
-class Day22Solution {
+class Problem22Solution {
   int missingNumber(List<int> nums) {
     int miss = 0;
     for (int i = 0; i < nums.length; i++) {

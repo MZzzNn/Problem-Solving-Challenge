@@ -1,4 +1,4 @@
-class Day4Solution {
+class Problem4Solution {
   int romanToInt(String s) {
     if (s.isEmpty) return 0;
 

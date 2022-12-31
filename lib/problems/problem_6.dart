@@ -1,4 +1,4 @@
-class Day6Solution {
+class Problem6Solution {
   bool isValid(String s) {
     if (s.isEmpty) return false;
 

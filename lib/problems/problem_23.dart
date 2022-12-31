@@ -1,4 +1,4 @@
-class Day23Solution {
+class Problem23Solution {
   void moveZeroes(List<int> nums) {
     List<int> result = [];
     int i =1;
@@ -10,6 +10,6 @@ class Day23Solution {
       result.insert(i, 0);
       i++;
     }
-    print('Day 23 : ' +result.toString());
+    print('Problem 23 : ' +result.toString());
   }
 }

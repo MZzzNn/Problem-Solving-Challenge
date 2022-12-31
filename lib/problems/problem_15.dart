@@ -1,4 +1,4 @@
-class Day15Solution {
+class Problem15Solution {
   String convertToTitle(int columnNumber) {
     String result = "";
     while (columnNumber > 0) {

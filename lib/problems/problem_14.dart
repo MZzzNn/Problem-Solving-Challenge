@@ -1,4 +1,4 @@
-class Day14Solution {
+class Problem14Solution {
   int singleNumber(List<int> nums) {
     var result = 0;
     /// TODO: if number repeats only twice you can use this solution
