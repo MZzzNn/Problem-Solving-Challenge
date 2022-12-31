@@ -1,29 +1,34 @@
+class ListNode {
+  int val;
+  ListNode? next;
+  ListNode([this.val = 0, this.next]);
+}
 
-class Day2Solution{
-
-  ///Todo :: 1. Problem --> Isomorphic Strings
-  bool isIsomorphic(String s, String t) {
-    if (s.length != t.length) return false;
-    Map<String, String> map = {};
-    for (int i = 0; i < s.length; i++) {
-      if (map.containsKey(s[i])) {
-        if (map[s[i]] != t[i]) return false;
-      } else {
-        if (map.containsValue(t[i])) return false;
-        map[s[i]] = t[i];
-      }
+class Day2Solution {
+  ///Todo :: 1. Problem --> Merge Two Sorted Lists
+  ListNode? mergeTwoLists(ListNode? list1, ListNode? list2) {
+    if (list1 == null) return list2;
+    if (list2 == null) return list1;
+    if (list1.val < list2.val) {
+      list1.next = mergeTwoLists(list1.next, list2);
+      return list1;
+    } else {
+      list2.next = mergeTwoLists(list1, list2.next);
+      return list2;
     }
-    return true;
   }
 
-  ///Todo :: 2. Solution --> Isomorphic Strings
-  bool isSubsequence(String s, String t) {
-    int i = 0 ,j = 0;
-    while (i < s.length && j < t.length) {
-      if (s[i] == t[j]) i++;
-      j++;
+  ///Todo :: 2. Solution --> Reverse Linked List
+  ListNode? reverseList(ListNode? head) {
+    ListNode? prev = null;
+    ListNode? curr = head;
+    while(curr !=null) {
+      ListNode? next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
     }
-    return i == s.length;
+    return prev;
   }
 
 }

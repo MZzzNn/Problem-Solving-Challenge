@@ -1,4 +1,4 @@
-class Day3Solution {
+class Problem3Solution {
   String longestCommonPrefix(List<String> strs) {
 
     if (strs.isEmpty) return '';

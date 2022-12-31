@@ -16,7 +16,7 @@ class Day2Solution{
     return true;
   }
 
-  ///Todo :: 2. Solution --> Isomorphic Strings
+  ///Todo :: 2. Solution --> Is Subsequence
   bool isSubsequence(String s, String t) {
     int i = 0 ,j = 0;
     while (i < s.length && j < t.length) {
