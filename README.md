@@ -70,3 +70,16 @@
 | 6. `Linked List` | `206`  |       [**Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/?envType=study-plan&id=level-1)       | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_3.dart) | `Dart` |   `Easy`   |
 | 7. `Linked List` | `876`  | [**Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/?envType=study-plan&id=level-1) | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_4.dart) | `Dart` |   `Easy`   |
 | 8. `Linked List` | `142`  |   [**Linked List Cycle II**](https://leetcode.com/problems/middle-of-the-linked-list/?envType=study-plan&id=level-1)    | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/leet_code_75/Day_4.dart) | `c++`  |  `Medium`  |
+
+
+<br/>
+
+<h1>DCC January 2023</h1>
+
+> **DCC** is a 30 days challenges of problems solving, each day has a problem with different difficulty, and each day has a different topic.
+
+<br/>
+
+| 🏷️ |   #   |                             Problem                             |                                                 Solution                                                  |  Lang  | Difficulty |
+|:---:|:-----:|:---------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------:|:----------:|
+| 1.  | `290` | [**Word Pattern**](https://leetcode.com/problems/word-pattern/) | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/dcc_jan_2023/Day_1.dart) | `Dart` |   `Easy`   |
