@@ -80,6 +80,6 @@
 
 <br/>
 
-| 🏷️ |   #   |                             Problem                             |                                                 Solution                                                  |  Lang  | Difficulty |
-|:---:|:-----:|:---------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------:|:----------:|
-| 1.  | `290` | [**Word Pattern**](https://leetcode.com/problems/word-pattern/) | [_**Solution**_](https://github.com/mazen-mo7amed/30-Day-Challenge/blob/main/lib/dcc_jan_2023/Day_1.dart) | `Dart` |   `Easy`   |
+| 🏷️ |   #   |                             Problem                             |                                                  Solution                                                   |  Lang  | Difficulty |
+|:---:|:-----:|:---------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:------:|:----------:|
+| 1.  | `290` | [**Word Pattern**](https://leetcode.com/problems/word-pattern/) | [_**Solution**_](https://github.com/MZzzNn/Problem-Solving-Challenge/blob/main/lib/dcc_jan_2023/day_1.dart) | `Dart` |   `Easy`   |
