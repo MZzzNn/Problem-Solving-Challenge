@@ -1,24 +1,19 @@
 class Problem6Solution {
   bool isValid(String s) {
-    if (s.isEmpty) return false;
-
-   // final queueChar = Queue<String>();
-    final listChar = [];
-
-    for (var ch in s.split('')) {
-      if (ch == '(' || ch == '{' || ch == '[') {
-        listChar.add(ch);
-      } else if (ch == ')' && listChar.isNotEmpty && listChar.first == '(') {
-        //queueChar.removeFirst();
-        listChar.removeAt(0);
-      } else if (ch == '}' && listChar.isNotEmpty && listChar.first == '{') {
-        listChar.removeAt(0);
-      } else if (ch == ']' && listChar.isNotEmpty && listChar.first == '[') {
-        listChar.removeAt(0);
+    List<String> stack = <String>[];
+    Map<String, String> map = {
+      ')': '(',
+      ']': '[',
+      '}': '{',
+    };
+    for (var i = 0; i < s.length; i++) {
+      if (map.containsKey(s[i])) {
+        if (stack.isEmpty || stack.last != map[s[i]]) return false;
+        stack.removeLast();
       } else {
-        return false;
+        stack.add(s[i]);
       }
     }
-    return listChar.isEmpty;
+    return stack.isEmpty;
   }
 }
