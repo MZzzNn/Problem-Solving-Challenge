@@ -4,7 +4,7 @@ class ListNode {
   ListNode([this.val = 0, this.next]);
 }
 
-class Day2Solution {
+class Day4Solution {
   ///Todo :: 1. Problem -->  Middle of the Linked List
   ListNode? middleNode(ListNode? head) {
     int mid = 0 ,i = 0;

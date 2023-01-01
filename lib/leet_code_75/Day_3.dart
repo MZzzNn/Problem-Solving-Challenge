@@ -4,7 +4,7 @@ class ListNode {
   ListNode([this.val = 0, this.next]);
 }
 
-class Day2Solution {
+class Day3Solution {
   ///Todo :: 1. Problem --> Merge Two Sorted Lists
   ListNode? mergeTwoLists(ListNode? list1, ListNode? list2) {
     if (list1 == null) return list2;
