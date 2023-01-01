@@ -1,14 +1,8 @@
 class Problem12Solution {
   bool isPalindrome(String s) {
-
     if (s.trim().isEmpty) return true;
-
-    final reg = RegExp(r'\.|,|:| ');
-    final temp = s.toLowerCase().split(reg).join();
-    final reversedString = temp.split('').reversed.join();
-
-    if (temp == reversedString) return true;
-
-    return false;
+    final String temp = s.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '').toLowerCase();
+    final String reversedString = temp.split('').reversed.join();
+    return temp == reversedString;
   }
 }
