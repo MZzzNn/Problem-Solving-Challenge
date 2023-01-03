@@ -1,5 +1,4 @@
 class Day1Solution {
-
   ///Todo :: 1. Problem --> Word Pattern
 
   bool wordPattern(String pattern, String s) {
